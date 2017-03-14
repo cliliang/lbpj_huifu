@@ -1,0 +1,570 @@
+[
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/guide_fragment4_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/guide_fragment4_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/luobo2.0/pullToRefreshLibrary/unspecified/res/layout/pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_navigation_item.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_audit_fragment_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_audit_fragment_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/verify_login_dialog_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/verify_login_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_audit_layout_kuai_zhuan.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_audit_layout_kuai_zhuan.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_audit_layout_ding_tou.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_audit_layout_ding_tou.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_audit_layout_xin_shout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_audit_layout_xin_shout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/feedback_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/feedback_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/check_update_dialog_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/check_update_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/custon_input_view_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/custon_input_view_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/change_mobile_step_one_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/change_mobile_step_one_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/home_declaration_text_view.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/home_declaration_text_view.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/common_mod_facade_view.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/common_mod_facade_view.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/my_invest_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/my_invest_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/unwrap_bank_card_dialog_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/unwrap_bank_card_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/notification_template_lines.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/notification_media_action.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/change_login_psd_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/change_login_psd_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/single_button_dialog_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/single_button_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_buy_top_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_buy_top_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/activity_main.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/register_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/register_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/show_hot_line_dialog_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/show_hot_line_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/show_logout_dialog_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/show_logout_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/login_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/login_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/luobo_kuai_zhuan_top_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/luobo_kuai_zhuan_top_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/about_us_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/about_us_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_base_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_base_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_list_top_banner_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_list_top_banner_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_item_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/invest_detail_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/invest_detail_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/trading_record_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/trading_record_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/msg_center_list_item_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/msg_center_list_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/luobo2.0/pullToRefreshLibrary/unspecified/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/declaration_item_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/declaration_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/main_tab_indicator_item.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/main_tab_indicator_item.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/bank_card_manager_unwrap_card.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/bank_card_manager_unwrap_card.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_info_item_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_info_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/guide_fragmnet3_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/guide_fragmnet3_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/guide_fragmnet2_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/guide_fragmnet2_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/my_invest_order_item_adapter_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/my_invest_order_item_adapter_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/guide_fragmnet1_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/guide_fragmnet1_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/bank_card_manager_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/bank_card_manager_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/declaration_web_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/declaration_web_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/account_info_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/account_info_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_record_fragment_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_record_fragment_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/show_product_image_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/show_product_image_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/redeem_back_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/redeem_back_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/bank_manager_invalid_dialog_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/bank_manager_invalid_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/my_invest_list_base_fragment_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/my_invest_list_base_fragment_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/no_message_empty_view_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/no_message_empty_view_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/show_use_app_guide_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/show_use_app_guide_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/luobo_kuai_zhuan_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/luobo_kuai_zhuan_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/ad_cycle_view.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/ad_cycle_view.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/message_info_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/message_info_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_info_base_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_info_base_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_top_info_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_top_info_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_detail_fragment_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_detail_fragment_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/common_horizontal_line.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/common_horizontal_line.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_buy_dialog_notice_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_buy_dialog_notice_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/mine_top_banner_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/mine_top_banner_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/gesture_verify_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/gesture_verify_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/no_invest_empty_view_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/no_invest_empty_view_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/declaration_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/declaration_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/redeem_list_item_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/redeem_list_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/custom_item_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/custom_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/static_web_view_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/static_web_view_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/start_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/start_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/find_block_view_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/find_block_view_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/show_new_version_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/show_new_version_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_audit_layout_yin_piao.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_audit_layout_yin_piao.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/more_about_luo_bo_icon_dialog_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/more_about_luo_bo_icon_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/more_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/more_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_search_view.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/redeem_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/redeem_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/assets_item_view_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/assets_item_view_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/total_assets_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/total_assets_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/common_progress_dialog_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/common_progress_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/home_fragment_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/home_fragment_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/buy_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/buy_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/toolbar_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/toolbar_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/retrieve_psd_step1_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/retrieve_psd_step1_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/notification_template_media.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/guide_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/guide_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/common_action_bar_rigth_text_menu_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/common_action_bar_rigth_text_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/trading_recording_item_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/trading_recording_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/change_mobile_step_two_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/change_mobile_step_two_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/mine_fragment_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/mine_fragment_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/retrieve_step_two_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/retrieve_step_two_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/account_security_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/account_security_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/msg_center_layout_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/msg_center_layout_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/product_info_record_list_item.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/product_info_record_list_item.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/web_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/web_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/bank_card_manager_add_card.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/bank_card_manager_add_card.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/contact_us_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/contact_us_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/gesture_edit_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/gesture_edit_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/recharge_activity_layout.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/layout/recharge_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    }
+]

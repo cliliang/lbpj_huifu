@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:input="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/long_view_margin_left_right"
+    android:orientation="vertical">
+
+    <com.baluobo.common.views.CustomInputView
+        android:id="@+id/retrieve_psd_step_one_phone_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        input:hintText="@string/please_input_bound_phone_number" />
+
+    <com.baluobo.common.views.CustomInputView
+        android:id="@+id/retrieve_psd_step_one_check_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        input:buttonText="@string/for_get_phone_check_code"
+        input:buttonVisible="true"
+        input:hintText="@string/please_input_check_code" />
+
+    <TextView
+        android:id="@+id/retrieve_psd_step_one_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_17"
+        android:textColor="@color/white"
+        android:background="@drawable/common_button_bg"
+        android:text="@string/next_step" />
+
+</LinearLayout>

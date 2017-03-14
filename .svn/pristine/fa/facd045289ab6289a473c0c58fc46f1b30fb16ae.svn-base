@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f4"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="0dp"
+        android:layout_weight="100">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/guide_pic4"
+            android:scaleType="centerCrop"
+            android:layout_gravity="bottom"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33">
+
+        <TextView
+            android:id="@+id/guide_use_button"
+            android:layout_width="170dp"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:background="@drawable/common_button_bg"
+            android:text="@string/use_app_now"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="@dimen/guide_text_margin_bottom"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_15"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>

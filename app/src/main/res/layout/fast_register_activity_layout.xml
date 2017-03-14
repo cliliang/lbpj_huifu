@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/long_view_margin_left_right"
+    android:paddingRight="@dimen/long_view_margin_left_right"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/common_input_view_bg"
+        android:layout_marginTop="40dp">
+
+        <com.baluobo.common.views.CustomInputView
+            android:id="@+id/fast_register_input_phone_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            app:hintText="@string/please_input_phone_number"
+            app:iconVisible="false" />
+
+        <TextView
+            android:id="@+id/fast_register_send_check_code"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/for_get_phone_check_code"
+            android:textColor="@color/colorBase"
+            android:textSize="@dimen/font_size_15" />
+
+    </LinearLayout>
+
+    <com.baluobo.common.views.CustomInputView
+        android:id="@+id/fast_register_input_phone_coe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:hintText="@string/please_input_check_code"
+        app:iconVisible="false" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <com.baluobo.common.views.CustomInputView
+            android:id="@+id/fast_register_input_invest_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:hintText="@string/please_input_invite_code"
+            app:iconVisible="false" />
+
+        <TextView
+            android:id="@+id/fast_register_have_invest_code_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_gravity="center"
+            android:text="@string/i_have_invest_code"
+            android:textColor="@color/color_92"
+            android:textSize="@dimen/font_size_15" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/fast_register_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_17"
+        android:textColor="@color/white"
+        android:enabled="false"
+        android:background="@drawable/common_button_bg"
+        android:text="@string/register"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/fast_register_accept_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_70"
+            android:textSize="@dimen/font_size_13"
+            android:text="@string/read_use_service_list"/>
+        <TextView
+            android:id="@+id/fast_register_service_list_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_70"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:textSize="@dimen/font_size_13"
+            android:text="@string/use_service_list"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fast_register_bottom_text"
+        android:textSize="@dimen/font_size_13"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/color_92"
+        android:layout_marginBottom="40dp"/>
+
+</LinearLayout>

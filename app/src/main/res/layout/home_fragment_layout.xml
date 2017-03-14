@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:find="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        android:id="@+id/home_fragment_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.baluobo.common.views.CycleViewPager
+                android:id="@+id/cycleView"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:gravity="center_vertical">
+
+                <com.baluobo.common.views.IconTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:text="@string/icon_string_declaration"
+                    android:textColor="@color/color_luobo_xin_shou" />
+
+                <TextView
+                    android:id="@+id/declaration_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="18dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/color_40"
+                    android:textSize="@dimen/font_size_13" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <com.baluobo.common.views.FindBlockView
+                    android:id="@+id/find_block_luobo_ding_tou"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    find:blickDesc="@string/luobo_ding_tou_desc"
+                    find:blockIcon="@drawable/icon_ding_tou"
+                    find:blockName="@string/luobo_ding_tou" />
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/line_color" />
+
+                <com.baluobo.common.views.FindBlockView
+                    android:id="@+id/find_block_yin_piao"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    find:blickDesc="@string/luobo_yin_piao_desc"
+                    find:blockIcon="@drawable/icon_yin_piao"
+                    find:blockName="@string/luobo_yin_piao" />
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/line_color" />
+
+                <com.baluobo.common.views.FindBlockView
+                    android:id="@+id/find_block_kuai_zhuan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    find:blickDesc="@string/luobo_kuai_zhuan_desc"
+                    find:blockIcon="@drawable/icon_kuai_zhuan"
+                    find:blockName="@string/luobo_kuai_zhuan" />
+
+            </LinearLayout>
+
+            <include layout="@layout/common_horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.baluobo.common.views.FindBlockView
+                    android:id="@+id/find_block_invite"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    find:blickDesc="@string/luobo_invite_desc"
+                    find:blockIcon="@drawable/icon_invite"
+                    find:blockName="@string/luobo_invite" />
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/line_color" />
+
+                <com.baluobo.common.views.FindBlockView
+                    android:id="@+id/find_block_ti_yan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    find:blickDesc="@string/luobo_ti_yan_desc"
+                    find:blockColor="@color/colorBase"
+                    find:blockIcon="@drawable/icon_tin_yan"
+                    find:blockName="@string/luobo_block_ti_yan" />
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/line_color" />
+
+                <com.baluobo.common.views.FindBlockView
+                    android:id="@+id/find_block_calculate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    find:blickDesc="@string/luobo_calculate_desc"
+                    find:blockIcon="@drawable/icon_calculate"
+                    find:blockName="@string/luobo_calculate" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_recommend_online_product_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_recommend_products_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+    <LinearLayout
+        android:id="@+id/home_net_invalid_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/default_background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/net_invalid_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/invalid_net_page_text"
+            android:textColor="@color/color_92"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/home_reload_data_button"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:background="@drawable/reload_data_button_bg"
+            android:text="@string/reload_data"
+            android:textColor="@color/color_92"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

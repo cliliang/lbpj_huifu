@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ViewStub
+            android:id="@+id/product_audit_view_stub_yin_piao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/product_audit_layout_yin_piao"/>
+        <ViewStub
+            android:id="@+id/product_audit_view_stub_xin_shou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/product_audit_layout_xin_shout"/>
+        <ViewStub
+            android:id="@+id/product_audit_view_stub_kuai_zhuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/product_audit_layout_kuai_zhuan"/>
+        <ViewStub
+            android:id="@+id/product_audit_view_stub_ding_tou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/product_audit_layout_ding_tou"/>
+    </LinearLayout>
+
+
+
+</ScrollView>

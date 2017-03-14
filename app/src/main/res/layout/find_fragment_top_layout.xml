@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/find_status_bar_view"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/custom_item_layout_bg">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/icon_gold"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6积分"
+            android:textColor="@color/colorBase"
+            android:textSize="@dimen/font_size_12"
+            android:layout_marginLeft="8dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/icon_default_head"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBase"
+                android:text="VIP1"
+                android:layout_marginLeft="7dp"
+                android:textSize="@dimen/font_size_12"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="46dp"
+            android:layout_height="24dp"
+            android:text="@string/sign_in"
+            android:background="@drawable/redeem_button_bg"
+            android:textColor="@color/colorBase"
+            android:layout_marginRight="15dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager
+        android:id="@+id/find_banner_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:clipToPadding="false"
+        android:paddingBottom="18dp"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:paddingTop="18dp"
+        app:triggerOffset="0.2" />
+
+    <include layout="@layout/common_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <com.baluobo.common.views.FindBlankView
+            android:id="@+id/find_blank_ji_fen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:blankImage="@drawable/icon_integral_shop"
+            app:blankTitle="@string/find_blank_ji_fen_title" />
+
+        <include layout="@layout/common_vertical_line" />
+
+        <com.baluobo.common.views.FindBlankView
+            android:id="@+id/find_blank_vip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:blankImage="@drawable/icon_vip_te_quan"
+            app:blankTitle="@string/find_blank_vip_title" />
+
+        <include layout="@layout/common_vertical_line" />
+
+        <com.baluobo.common.views.FindBlankView
+            android:id="@+id/find_blank_help"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:blankImage="@drawable/icon_help_center"
+            app:blankTitle="@string/find_blank_help_title" />
+    </LinearLayout>
+
+    <include layout="@layout/common_horizontal_line" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:left="-1px"
+        android:top="-1px"
+        android:right="-1px"
+        android:bottom="@dimen/line_height">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/>
+            <stroke android:color="@color/line_color" android:width="@dimen/line_height" android:dashGap="2dp" android:dashWidth="2dp"/>
+        </shape>
+    </item>
+</layer-list>

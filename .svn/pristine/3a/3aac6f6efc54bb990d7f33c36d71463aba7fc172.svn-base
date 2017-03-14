@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:item="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_horizontal_line" />
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/account_info_phone_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        item:showIconFlag="false"
+        item:iconFlag="@string/icon_string_home"
+        item:showIconArrow="false"
+        item:titleContent="@string/account_phone" />
+
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/account_info_certification_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconFlag="false"
+        item:iconFlag="@string/icon_string_home"
+        item:titleContent="@string/account_certification" />
+
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/account_bound_bank_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconFlag="false"
+        item:iconFlag="@string/icon_string_home"
+        item:titleContent="@string/account_bound_card" />
+
+
+    <TextView
+        android:id="@+id/account_info_logout_safe"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/long_view_margin_left_right"
+        android:layout_marginRight="@dimen/long_view_margin_left_right"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/security_logout_button_bg"
+        android:textColor="@color/color_92"
+        android:textSize="@dimen/font_size_17"
+        android:text="@string/safe_logout"/>
+
+</LinearLayout>

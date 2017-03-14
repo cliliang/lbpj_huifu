@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:assets="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.baluobo.common.views.TotalAssetsView
+                android:id="@+id/total_assets_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                assets:insideRadius="@dimen/total_assets_inside_radius"
+                assets:outsideRadius="@dimen/total_assets_outside_radius" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/assets_total_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_40"
+                    android:textSize="@dimen/font_size_15" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/total_assets"
+                    android:textColor="@color/color_70"
+                    android:textSize="@dimen/font_size_11" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/total_assets_tomorrow_money"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/color_40"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/total_assets_total_money"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/color_40"
+                android:textSize="@dimen/font_size_15" />
+
+
+        </LinearLayout>
+
+        <include layout="@layout/common_horizontal_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="58dp"
+            android:paddingRight="58dp">
+
+            <TextView
+                android:id="@+id/assets_recharge_button"
+                android:layout_width="80dp"
+                android:layout_height="32dp"
+                android:background="@drawable/common_button_bg"
+                android:gravity="center"
+                android:text="@string/recharge"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/assets_withdraw_button"
+                android:layout_width="80dp"
+                android:layout_height="32dp"
+                android:background="@drawable/redeem_button_bg"
+                android:gravity="center"
+                android:text="@string/withdraw"
+                android:textColor="@color/colorBase"
+                android:textSize="@dimen/font_size_15" />
+
+        </LinearLayout>
+
+        <include layout="@layout/common_horizontal_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="55dp"
+            android:paddingRight="55dp"
+            android:paddingTop="10dp">
+
+            <com.baluobo.common.views.AssetsItemView
+                android:id="@+id/assets_luobo_kuai_zhuan_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                assets:itemIconColor="@color/color_luobo_kuai_zhuan"
+                assets:itemName="@string/luobo_kuai_zhuan" />
+
+            <com.baluobo.common.views.AssetsItemView
+                android:id="@+id/assets_luobo_ding_tou_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                assets:itemIconColor="@color/color_luobo_ding_tou"
+                assets:itemName="@string/luobo_ding_tou" />
+
+            <com.baluobo.common.views.AssetsItemView
+                android:id="@+id/assets_luobo_xin_shou_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                assets:itemIconColor="@color/color_luobo_xin_shou"
+                assets:itemName="@string/luobo_xin_shou" />
+
+            <com.baluobo.common.views.AssetsItemView
+                android:id="@+id/assets_luobo_yin_piao_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                assets:itemIconColor="@color/color_luobo_yin_piao"
+                assets:itemName="@string/luobo_yin_piao" />
+
+            <com.baluobo.common.views.AssetsItemView
+                android:id="@+id/assets_luobo_exp_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                assets:itemIconColor="@color/color_luobo_exp_color"
+                assets:itemName="@string/luobo_ti_yan" />
+
+            <com.baluobo.common.views.AssetsItemView
+                android:id="@+id/assets_luobo_usable_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                assets:itemIconColor="@color/color_luobo_usable_money"
+                assets:itemName="@string/assets_usable_money" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

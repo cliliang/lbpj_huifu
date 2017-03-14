@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/kuai_zhuan_product_info"
+                            android:textColor="@color/colorBase"
+                            android:textSize="@dimen/font_size_16" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/kuai_zhuan_new_page_import"
+                            android:textColor="@color/color_33"
+                            android:textSize="@dimen/font_size_11" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/kuai_zhuan_info_apr"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorBase"
+                                android:textSize="@dimen/font_size_33" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@id/kuai_zhuan_info_apr"
+                                android:layout_toRightOf="@id/kuai_zhuan_info_apr"
+                                android:text="%"
+                                android:textColor="@color/colorBase"
+                                android:textSize="@dimen/font_size_16" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/APR"
+                            android:textColor="@color/color_33"
+                            android:textSize="@dimen/font_size_11" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/kuai_zhuan_info_can_buy_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBase"
+                            android:textSize="@dimen/font_size_18" />
+
+                        <TextView
+                            android:id="@+id/kuai_zhuan_start_buy_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/product_info_min_invest_money"
+                            android:textColor="@color/color_33"
+                            android:textSize="@dimen/font_size_11" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="@dimen/kuai_zhuan_progress_margin"
+                        android:layout_marginRight="@dimen/kuai_zhuan_progress_margin"
+                        android:background="@drawable/kuai_zhuan_progress_layout_bg"
+                        android:orientation="horizontal">
+
+                        <com.baluobo.product.views.KuaiZhuanProgress
+                            android:id="@+id/kuai_zhuan_selled_weight_view"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0"
+                            app:colorBaseWidth="4dp"
+                            app:colorWhiteWidth="2dp" />
+
+                        <TextView
+                            android:id="@+id/kuai_zhuan_selling_weight_view"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/kuai_zhuan_progress_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="@dimen/kuai_zhuan_progress_margin"
+                        android:src="@drawable/kuai_zhuan_progress_icon" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/kuai_zhuan_info_total_can_buy_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_66"
+                    android:textSize="@dimen/font_size_13" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/kuai_zhuan_piao_ju_type"
+                    android:textColor="@color/color_40"
+                    android:textSize="@dimen/font_size_14" />
+
+                <include layout="@layout/common_horizontal_line" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <include layout="@layout/common_horizontal_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/kuai_zhuan_total_sell" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/kuai_zhuan_info_customer_total_buy"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorBase"
+                                android:textSize="@dimen/font_size_16" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:text="@string/kuai_zhuan_total_sell"
+                                android:textColor="@color/color_66"
+                                android:textSize="@dimen/font_size_11" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="1px"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/line_color" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:paddingBottom="13dp"
+                        android:paddingTop="13dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/kuai_zhuan_total_customer" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/kuai_zhuan_info_customer_total_people"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorBase"
+                                android:textSize="@dimen/font_size_16" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:text="@string/kuai_zhuan_total_customer"
+                                android:textColor="@color/color_66"
+                                android:textSize="@dimen/font_size_11" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <include layout="@layout/common_horizontal_line" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <include layout="@layout/common_horizontal_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/product_info_buy_how_much_money"
+                            android:textColor="@color/color_40"
+                            android:textSize="@dimen/font_size_14" />
+
+                        <EditText
+                            android:id="@+id/kuai_zhuan_info_edit_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:background="@null"
+                            android:gravity="center_vertical|left"
+                            android:hint="100"
+                            android:inputType="number"
+                            android:textColor="@color/colorBase"
+                            android:textColorHint="@color/color_99" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:text="@string/account_usable_money"
+                            android:textColor="@color/color_40"
+                            android:textSize="@dimen/font_size_14" />
+
+                        <EditText
+                            android:id="@+id/kuai_zhuan_info_account_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:background="@null"
+                            android:gravity="center_vertical|left"
+                            android:textColor="@color/colorBase"
+                            android:textColorHint="@color/color_99" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/common_horizontal_line" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/invest_detail_pre_30_interest"
+                    android:textColor="@color/color_99"
+                    android:textSize="@dimen/font_size_11" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/kuai_zhuan_info_bank_income"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0.0"
+                            android:textColor="@color/color_66"
+                            android:textSize="@dimen/font_size_11" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="39dp"
+                            android:layout_marginTop="5dp"
+                            android:background="#B6F0FA" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/bank_rate"
+                            android:textColor="@color/color_33"
+                            android:textSize="@dimen/font_size_13" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/kuai_zhuan_info_luobo_income"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0.0"
+                            android:textColor="@color/color_66"
+                            android:textSize="@dimen/font_size_11" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="80dp"
+                            android:background="#FFC562" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/app_name"
+                            android:textColor="@color/color_33"
+                            android:textSize="@dimen/font_size_13" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/kuai_zhuan_info_bao_bao_income"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0.0"
+                            android:textColor="@color/color_66"
+                            android:textSize="@dimen/font_size_11" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="58dp"
+                            android:background="#FFBEA1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/bao_bao_rate"
+                            android:textColor="@color/color_33"
+                            android:textSize="@dimen/font_size_13" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <include layout="@layout/common_horizontal_line" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="11dp"
+                android:text="@string/money_return_to_account_type"
+                android:textColor="@color/color_99"
+                android:textSize="@dimen/font_size_11" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/kuai_zhuan_info_buy_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/long_view_margin_left_right"
+        android:layout_marginRight="@dimen/long_view_margin_left_right"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/common_button_bg"
+        android:gravity="center"
+        android:text="@string/make_money_now_button_text"
+        android:textColor="@color/common_button_text_color_selector"
+        android:textSize="@dimen/font_size_18" />
+</LinearLayout>

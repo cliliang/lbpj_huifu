@@ -1,0 +1,330 @@
+[
+    {
+        "outputFile": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1978,
+                    "endColumn": 58,
+                    "endOffset": 2032
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 1978,
+                        "endColumn": 58,
+                        "endOffset": 2032
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 2037,
+                    "endColumn": 63,
+                    "endOffset": 2096
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 2037,
+                        "endColumn": 63,
+                        "endOffset": 2096
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 2101,
+                    "endColumn": 55,
+                    "endOffset": 2152
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 2101,
+                        "endColumn": 55,
+                        "endOffset": 2152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 2157,
+                    "endColumn": 50,
+                    "endOffset": 2203
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 2157,
+                        "endColumn": 50,
+                        "endOffset": 2203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 2208,
+                    "endColumn": 54,
+                    "endOffset": 2258
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 2208,
+                        "endColumn": 54,
+                        "endOffset": 2258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 2263,
+                    "endColumn": 56,
+                    "endOffset": 2315
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 2263,
+                        "endColumn": 56,
+                        "endOffset": 2315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 2320,
+                    "endColumn": 54,
+                    "endOffset": 2370
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 2320,
+                        "endColumn": 54,
+                        "endOffset": 2370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 2375,
+                    "endColumn": 37,
+                    "endOffset": 2408
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 2375,
+                        "endColumn": 37,
+                        "endOffset": 2408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 2413,
+                    "endColumn": 39,
+                    "endOffset": 2448
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 2413,
+                        "endColumn": 39,
+                        "endOffset": 2448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2453,
+                    "endColumn": 46,
+                    "endOffset": 2495
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 2453,
+                        "endColumn": 46,
+                        "endOffset": 2495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2500,
+                    "endColumn": 36,
+                    "endOffset": 2532
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2500,
+                        "endColumn": 36,
+                        "endOffset": 2532
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2537,
+                    "endColumn": 73,
+                    "endOffset": 2606
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2537,
+                        "endColumn": 73,
+                        "endOffset": 2606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2611,
+                    "endColumn": 79,
+                    "endOffset": 2686
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2611,
+                        "endColumn": 79,
+                        "endOffset": 2686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2691,
+                    "endColumn": 75,
+                    "endOffset": 2762
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2691,
+                        "endColumn": 75,
+                        "endOffset": 2762
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2767,
+                    "endColumn": 60,
+                    "endOffset": 2823
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2767,
+                        "endColumn": 60,
+                        "endOffset": 2823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2828,
+                    "endColumn": 67,
+                    "endOffset": 2891
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2828,
+                        "endColumn": 67,
+                        "endOffset": 2891
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2896,
+                    "endColumn": 63,
+                    "endOffset": 2955
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2896,
+                        "endColumn": 63,
+                        "endOffset": 2955
+                    }
+                }
+            }
+        ]
+    }
+]

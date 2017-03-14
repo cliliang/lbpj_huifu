@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/color/common_button_text_color_selector.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/color/common_button_text_color_selector.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/color/main_tab_icon_text_color.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/color/main_tab_icon_text_color.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/color/abc_search_url_text.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/abc_primary_text_disable_only_material_light.xml"
+    }
+]

@@ -1,0 +1,135 @@
+apply plugin: 'com.android.application'
+
+def releaseTime() {
+    return new Date().format("yyyyMMddHHmmss")
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.baluobo"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 13
+        versionName "2.2.6"
+        multiDexEnabled true
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "umeng", UMENG_APPKEY_VALUE : "560cc79667e58e87f4004215", UMENG_MESSAGE_SECRET_VALUE : "05da9d22cade847584a1fdd6e0cea21a"]
+    }
+
+    signingConfigs {
+        debug {
+//            storeFile file("../baluobo_key")
+//            storePassword "123789"
+//            keyAlias "zhongxintiancheng"
+//            keyPassword "123789"
+        }
+
+        release {
+            storeFile file("../baluobo_key")
+            storePassword "123789"
+            keyAlias "zhongxintiancheng"
+            keyPassword "123789"
+        }
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            versionNameSuffix "-debug"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.release
+        }
+
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        // 输出apk名称为v1.0_2015-01-15_wandoujia.apk
+                        def fileName = "luobopj_v${defaultConfig.versionName}_${variant.productFlavors[0].name}.apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+    }
+
+//    ${releaseTime()}_
+
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    defaultConfig {
+        multiDexEnabled true
+    }
+
+    //  友盟多渠道
+    productFlavors {
+        wandoujia {}
+        yinyongbao{}
+        flyme{}
+        huawei{}
+        jifeng{}
+        lenovo{}
+        _3w{}
+//        下列市场两个应用标题应该一致
+        _360shoujizhushou {}
+        xiaomi {}
+        _91zhushou{}
+        baidu {}
+        anzhuo{}
+        anzhi{}
+        oppo{}
+        pp{}
+        vivo{}
+        leshi{}
+    }
+
+    productFlavors.all { flavor ->
+        flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.squareup:otto:1.3.8'
+    compile 'com.wang.avi:library:1.0.5'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile project(':pullToRefreshLibrary')
+    compile 'com.android.support:design:23.3.0'
+    compile files('libs/xiaomi_sdk.jar')
+    compile 'com.github.chrisbanes.photoview:library:1.2.4'
+    compile project(':PushSDK')
+    compile 'com.umeng.analytics:analytics:6.0.1'
+    compile project(':social_sdk_library_project')
+    compile 'com.lsjwzh:recyclerviewpager:1.0.8'
+    compile 'com.makeramen:roundedimageview:2.2.1'
+}

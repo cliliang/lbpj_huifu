@@ -1,0 +1,178 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBase</item>
+        <item name="colorPrimaryDark">@color/colorBase</item>
+        <item name="colorAccent">@color/colorBase</item>
+    </style>
+
+    <style name="AppLaunchTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBase</item>
+        <item name="colorPrimaryDark">@color/colorBase</item>
+        <item name="colorAccent">@color/colorBase</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/Animation.Slide</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/default_background</item>
+    </style>
+
+    <style name="StartActivityTheme" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/Animation.Slide</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/launch_image</item>
+    </style>
+    
+    <style name="ImageDialogStyle" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Animation" />
+
+    <style name="Animation.Slide" parent="@style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="GestureDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="MyInvestTabStyle" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/colorBase</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabBackground">@color/white</item>
+        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/color_40</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="ProductCircleText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Font15NormalColor">
+        <item name="android:textSize">@dimen/font_size_15</item>
+        <item name="android:textColor">@color/normal_text_color</item>
+    </style>
+    <style name="Font13HintColor">
+        <item name="android:textSize">@dimen/font_size_13</item>
+        <item name="android:textColor">@color/hint_text_color</item>
+    </style>
+    <style name="Font11HintColor">
+        <item name="android:textSize">@dimen/font_size_11</item>
+        <item name="android:textColor">@color/hint_text_color</item>
+    </style>
+    <style name="CalculateText">
+        <item name="android:textSize">@dimen/font_size_15</item>
+        <item name="android:textColor">@color/color_40</item>
+        <item name="android:layout_width">115dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="ProductBuyStyle">
+        <item name="android:textColor">@color/colorBase</item>
+        <item name="android:textSize">@dimen/font_size_13</item>
+    </style>
+
+    <style name="CalculateEdit">
+        <item name="android:layout_height">34dp</item>
+        <item name="android:textSize">@dimen/font_size_15</item>
+        <item name="android:textColor">@color/color_40</item>
+        <item name="android:textColorHint">@color/color_92</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@drawable/calculate_view_bg</item>
+    </style>
+    <style name="CalculateButton">
+        <item name="android:layout_height">34dp</item>
+        <item name="android:textSize">@dimen/font_size_15</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">@dimen/calculate_return_calculate_view_width</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_button_bg</item>
+    </style>
+    <style name="RecalculateStyle">
+        <item name="android:textColor">@color/color_40</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="RecalculateButtonStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/common_button_bg</item>
+    </style>
+    <style name="RecalculateNumberStyle">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textColor">@color/color_40</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/recalculate_view_bg</item>
+    </style>
+    <style name="shareWindowStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom_out</item>
+    </style>
+    <style name="VipRedPacketStyle">
+        <item name="android:textColor">@color/color_40</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:layout_marginTop">13dp</item>
+        <item name="android:layout_marginBottom">13dp</item>
+    </style>
+    <style name="FuliContentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:lineSpacingExtra">10dp</item>
+        <item name="android:textColor">@color/color_70</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+    </style>
+    <style name="SignWeekStyle">
+        <item name="android:layout_width">@dimen/sign_calendar_view_border</item>
+        <item name="android:layout_height">@dimen/sign_calendar_view_border</item>
+        <item name="android:textColor">@color/color_70</item>
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

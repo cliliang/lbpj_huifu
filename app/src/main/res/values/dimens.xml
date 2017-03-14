@@ -1,0 +1,62 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="font_size_33">33sp</dimen>
+    <dimen name="font_size_30">30sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_22">22sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_19">19sp</dimen>
+    <dimen name="font_size_17">17sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_15">15sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_13">13sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_11">11sp</dimen>
+    <dimen name="font_size_10">10sp</dimen>
+    <dimen name="font_size_9">9sp</dimen>
+    <dimen name="font_size_8">8sp</dimen>
+
+
+    <dimen name="line_height">1px</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="actionbar_default_height">48dp</dimen>
+    <dimen name="custom_item_height">45dp</dimen>
+    <dimen name="input_view_height">35dp</dimen>
+    <dimen name="long_view_margin_left_right">35dp</dimen>
+    <dimen name="recharge_title_width">100dp</dimen>
+    <dimen name="change_phone_item_title_width">120dp</dimen>
+    <dimen name="input_item_layout_height">50dp</dimen>
+    <dimen name="kuai_zhuan_map_margin">45dp</dimen>
+    <dimen name="kuai_zhuan_map_margin_bottom">65dp</dimen>
+    <dimen name="kuai_zhuan_text_margin_bottom">50dp</dimen>
+    <dimen name="total_assets_outside_radius">83dp</dimen>
+    <dimen name="total_assets_inside_radius">50dp</dimen>
+    <dimen name="product_view_margin">10dp</dimen>
+    <dimen name="home_texts_switch_height">30dp</dimen>
+    <dimen name="invest_line_height">1.5dp</dimen>
+    <dimen name="invest_high_height">121dp</dimen>
+    <dimen name="invest_low_height">21dp</dimen>
+    <dimen name="map_total_income_margin_top">25dp</dimen>
+    <dimen name="buy_rule_low_line_height">15dp</dimen>
+    <dimen name="buy_rule_height_line_height">20dp</dimen>
+    <dimen name="buy_rule_line_width">1dp</dimen>
+    <dimen name="buy_rule_text_margin_top">30dp</dimen>
+    <dimen name="guide_text_margin_bottom">90dp</dimen>
+    <dimen name="view_common_margin">10dp</dimen>
+    <dimen name="home_banner_dot_width">8dp</dimen>
+    <dimen name="gesture_view_block_margin">20dp</dimen>
+    <dimen name="calculate_text_margin">12dp</dimen>
+    <dimen name="calculate_return_calculate_view_width">70dp</dimen>
+    <dimen name="invite_dialog_width">250dp</dimen>
+    <dimen name="mine_service_view_height">130dp</dimen>
+    <dimen name="vip_icon_item_margin">42dp</dimen>
+    <dimen name="sign_calendar_view_border">28dp</dimen>
+    <dimen name="sign_calendar_day_border">14dp</dimen>
+    <dimen name="kuai_zhuan_progress_margin">40dp</dimen>
+    <dimen name="product_progress_margin">50dp</dimen>
+
+</resources>

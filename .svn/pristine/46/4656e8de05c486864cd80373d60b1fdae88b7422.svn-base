@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/custom_input_view_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_input_view_bg"
+        android:gravity="center_vertical|left"
+        android:hint="@string/please_input_phone_number"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/color_40"
+        android:textColorHint="@color/color_92"
+        android:textSize="15sp" />
+
+    <com.baluobo.common.views.IconTextView
+        android:id="@+id/custom_input_visible_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="right|center_vertical"
+        android:paddingLeft="30dp"
+        android:text="@string/icon_string_close_eye" />
+
+    <TextView
+        android:id="@+id/custom_input_view_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:textColor="@color/color_40"
+        android:textSize="@dimen/font_size_15"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="right|center_vertical"/>
+
+</FrameLayout>

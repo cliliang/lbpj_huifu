@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/sign_calendar_view_border"
+    android:layout_height="@dimen/sign_calendar_view_border"
+    android:background="@android:color/transparent"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/sign_day_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sign_in_day_view_selector"
+        android:textSize="@dimen/font_size_18"
+        android:gravity="center"
+        android:enabled="true"
+        android:textColor="@color/sign_in_day_view_text_color"/>
+
+</FrameLayout>

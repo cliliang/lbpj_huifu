@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/release/drawable/indicator_bg_bottom.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/release/drawable/image_loading.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable/image_loading.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/release/drawable/indicator_bg_top.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable/indicator_bg_top.xml"
+    }
+]

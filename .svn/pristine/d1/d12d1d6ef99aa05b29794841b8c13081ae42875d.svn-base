@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:input="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/long_view_margin_left_right">
+
+    <com.baluobo.common.views.CustomInputView
+        android:id="@+id/retrieve_psd_step_two_input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        input:buttonVisible="false"
+        input:hintText="@string/please_input_password"
+        input:iconVisible="true" />
+
+    <com.baluobo.common.views.CustomInputView
+        android:id="@+id/retrieve_psd_step_two_input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        input:buttonVisible="false"
+        input:hintText="@string/please_input_psd_again"
+        input:iconVisible="false" />
+
+    <TextView
+        android:id="@+id/retrieve_psd_step_two_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_17"
+        android:background="@drawable/common_button_bg"
+        android:text="@string/complete" />
+</LinearLayout>

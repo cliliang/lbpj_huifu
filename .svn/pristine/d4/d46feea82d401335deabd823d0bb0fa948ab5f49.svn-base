@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/roll_back_one_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/calendar_left" />
+
+        <TextView
+            android:id="@+id/calendar_now_date"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/color_40"
+            android:textSize="@dimen/font_size_18" />
+
+        <ImageView
+            android:id="@+id/roll_forward_one_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/calendar_right_arrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SignWeekStyle"
+            android:text="@string/sign_calendar_monday" />
+        <TextView
+            style="@style/SignWeekStyle"
+            android:text="@string/sign_calendar_tuesday" />
+        <TextView
+            style="@style/SignWeekStyle"
+            android:text="@string/sign_calendar_wednesday" />
+        <TextView
+            style="@style/SignWeekStyle"
+            android:text="@string/sign_calendar_thursday" />
+        <TextView
+            style="@style/SignWeekStyle"
+            android:text="@string/sign_calendar_friday" />
+        <TextView
+            style="@style/SignWeekStyle"
+            android:text="@string/sign_calendar_saturday" />
+        <TextView
+            style="@style/SignWeekStyle"
+            android:text="@string/sign_calendar_weekday" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/sign_in_calendar_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:numColumns="7"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

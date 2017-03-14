@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/mine_total_assets_layout_view"
+        android:layout_width="match_parent"
+        android:background="@drawable/main_top_bg_image"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/mine_asset_total_integer_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/mine_asset_int_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_33" />
+            <TextView
+                android:id="@+id/mine_asset_float_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/mine_asset_int_view"
+                android:text=".00"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_22"
+                android:layout_toRightOf="@id/mine_asset_int_view"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/the_money_mean_view_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mine_total_asset"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="50dp"
+            android:textSize="@dimen/font_size_13"
+            android:textColor="@color/white"
+            android:layout_below="@id/mine_asset_total_integer_view"/>
+
+    </RelativeLayout>
+
+    <com.baluobo.common.views.WaveView
+        android:id="@+id/waveView"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom"/>
+
+
+</FrameLayout>

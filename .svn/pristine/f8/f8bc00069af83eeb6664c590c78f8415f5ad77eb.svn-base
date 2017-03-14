@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/vip_pager_container"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@color/white"
+            android:clipChildren="false">
+
+            <com.baluobo.common.views.clip.ClipViewPager
+                android:id="@+id/vip_center_view_pager"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:clipChildren="false" />
+
+            <TextView
+                android:id="@+id/vip_type_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vip_center_view_pager"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:text="@string/normal_vip"
+                android:textColor="@color/color_40"
+                android:textSize="@dimen/font_size_14" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/vip_group_up_condition"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/normal_vip_group_up_condition"
+            android:textColor="@color/color_40"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/tie_quan_li_yue"
+            android:textColor="@color/colorBase"
+            android:textSize="@dimen/font_size_15" />
+
+        <include layout="@layout/common_horizontal_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vip_red_packet_icon_view"
+                style="@style/VipRedPacketStyle"
+                android:enabled="false"
+                android:drawableTop="@drawable/principal_red_packet_icon_selector"
+                android:text="@string/principal_red_packet" />
+
+            <include layout="@layout/common_vertical_line" />
+
+            <TextView
+                android:id="@+id/vip_surprise_packet_icon_view"
+                style="@style/VipRedPacketStyle"
+                android:enabled="false"
+                android:drawableTop="@drawable/surprise_packet_icon_selector"
+                android:text="@string/surprise_red_packet" />
+
+            <include layout="@layout/common_vertical_line" />
+
+            <TextView
+                android:id="@+id/vip_birthday_packet_icon_view"
+                style="@style/VipRedPacketStyle"
+                android:enabled="false"
+                android:drawableTop="@drawable/birthday_red_packet_icon_selector"
+                android:text="@string/birthday_red_packet" />
+
+            <include layout="@layout/common_vertical_line" />
+
+            <TextView
+                android:id="@+id/vip_privilege_red_packet_icon_view"
+                style="@style/VipRedPacketStyle"
+                android:enabled="false"
+                android:drawableTop="@drawable/privilege_red_packet_icon_selector"
+                android:text="@string/privilege_red_packet" />
+
+        </LinearLayout>
+
+        <include layout="@layout/common_horizontal_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vip_private_customer_service_icon_view"
+                style="@style/VipRedPacketStyle"
+                android:enabled="false"
+                android:drawableTop="@drawable/private_customer_service_icon_selector"
+                android:text="@string/private_customer_service" />
+
+            <include layout="@layout/common_vertical_line" />
+
+            <TextView
+                android:id="@+id/vip_double_integral_icon_view"
+                style="@style/VipRedPacketStyle"
+                android:enabled="false"
+                android:drawableTop="@drawable/double_integral_icon_selector"
+                android:text="@string/double_integral" />
+
+            <include layout="@layout/common_vertical_line" />
+
+            <TextView
+                android:id="@+id/vip_private_gift_icon_view"
+                style="@style/VipRedPacketStyle"
+                android:enabled="false"
+                android:drawableTop="@drawable/private_gift_icon_selector"
+                android:text="@string/private_gift" />
+
+            <include layout="@layout/common_vertical_line" />
+
+            <TextView
+                style="@style/VipRedPacketStyle"
+                android:enabled="false" />
+
+        </LinearLayout>
+
+        <include layout="@layout/common_horizontal_line" />
+
+        <TextView
+            android:id="@+id/red_tickets_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="@string/tie_quan_take_red_ticket"
+            android:textColor="@color/colorBase"
+            android:textSize="@dimen/font_size_15" />
+
+        <include layout="@layout/common_horizontal_line" />
+
+        <LinearLayout
+            android:id="@+id/take_vip_ticket_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="@string/describe_vip_privilege"
+                android:textColor="@color/color_40"
+                android:textSize="@dimen/font_size_15" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/vip_content_describe_bg"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <com.baluobo.common.views.VIPContentView
+                    style="@style/FuliContentStyle"
+                    android:text="@string/describe_principal_red_packet" />
+
+                <com.baluobo.common.views.VIPContentView
+                    style="@style/FuliContentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/describe_surprise_red_packet" />
+
+                <com.baluobo.common.views.VIPContentView
+                    style="@style/FuliContentStyle"
+                    android:text="@string/describe_birthday_red_packet" />
+
+                <com.baluobo.common.views.VIPContentView
+                    style="@style/FuliContentStyle"
+                    android:text="@string/describe_privilege_red_packet" />
+
+                <com.baluobo.common.views.VIPContentView
+                    style="@style/FuliContentStyle"
+                    android:text="@string/describe_customer_service" />
+
+                <com.baluobo.common.views.VIPContentView
+                    style="@style/FuliContentStyle"
+                    android:text="@string/describe_double_integral" />
+
+                <com.baluobo.common.views.VIPContentView
+                    style="@style/FuliContentStyle"
+                    android:text="@string/describe_private_gift" />
+
+                <com.baluobo.common.views.VIPContentView
+                    style="@style/FuliContentStyle"
+                    android:text="@string/vip_privilege_rule" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

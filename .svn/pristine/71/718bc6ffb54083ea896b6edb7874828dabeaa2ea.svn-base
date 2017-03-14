@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:item="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="177dp">
+
+        <com.baluobo.common.views.SecurityView
+            android:id="@+id/account_security_circle_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            item:securityCircleRadius="70dp"
+            item:securityCircleStroke="8dp"
+            item:securityColorBackground="@color/color_d3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="21dp"
+            android:text="@string/account_security_rank"
+            android:textColor="@color/color_40"
+            android:textSize="@dimen/font_size_15" />
+
+    </FrameLayout>
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/account_security_open_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconFlag="false"
+        item:titleContent="@string/account_certification" />
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/account_security_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconFlag="false"
+        item:titleContent="@string/account_phone" />
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/account_security_login_psd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconFlag="false"
+        item:titleContent="@string/account_login_psd"
+        item:titleSubContent="@string/modify" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_item_height"
+        android:background="@drawable/custom_item_layout_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:text="@string/gesture_psd"
+            android:textColor="@color/color_40"
+            android:textSize="@dimen/font_size_15" />
+
+        <Switch
+            android:id="@+id/account_security_gesture_switch_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/account_security_change_gesture_psd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_item_height"
+        android:background="@drawable/custom_item_layout_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/modify_gesture_psd"
+        android:textColor="@color/color_40"
+        android:textSize="@dimen/font_size_15" />
+
+
+</LinearLayout>

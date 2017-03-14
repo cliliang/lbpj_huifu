@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
+    format="7"
+    timestamp="147844618712336" >
+
+    <task
+        name="javac"
+        duration="4533" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="315" />
+    <task
+        name="verifier"
+        duration="60" />
+
+    <artifact
+        location="/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/outputs/apk/app-_360shoujizhushou-debug-unaligned.apk"
+        type="MAIN" />
+
+    <build timestamp="147844618712336" >
+        <artifact
+            location="/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/outputs/apk/app-_360shoujizhushou-debug-unaligned.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/product_audit_image"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="143dp"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/product_audit_ticket_baozhang"
+        android:textColor="@color/color_40"
+        android:textSize="@dimen/font_size_15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/product_audit_ticket_baozhang_content"
+        android:textColor="@color/color_70"
+        android:textSize="@dimen/font_size_13" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/product_audit_ticket_title"
+        android:textColor="@color/color_40"
+        android:textSize="@dimen/font_size_15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/product_audit_ticket_title_content"
+        android:textColor="@color/color_70"
+        android:textSize="@dimen/font_size_13" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#99e9f7"
+            android:gravity="center"
+            android:text="@string/product_audit_title1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffc562"
+            android:gravity="center"
+            android:text="@string/product_audit_title2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_15" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffb899"
+            android:gravity="center"
+            android:text="@string/product_audit_title3"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#6ee3b2"
+            android:gravity="center"
+            android:text="@string/product_audit_title4"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_15" />
+
+    </LinearLayout>
+
+</LinearLayout>

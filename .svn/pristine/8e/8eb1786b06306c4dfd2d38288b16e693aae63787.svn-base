@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp">
+
+        <TextView
+            android:layout_width="@dimen/line_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/line_color" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <com.baluobo.common.views.TradingCircleView
+                android:id="@+id/trading_recording_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                circle:tradingCircleRadius="15dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                
+                <TextView
+                    android:id="@+id/trading_bank_view"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"/>
+
+                <TextView
+                    android:id="@+id/trading_recording_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/color_92"
+                    android:textSize="@dimen/font_size_11"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/trading_bank_view" />
+
+                <TextView
+                    android:id="@+id/trading_recording_handle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/color_92"
+                    android:textSize="@dimen/font_size_11"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/trading_bank_view" />
+
+            </RelativeLayout>
+
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+</LinearLayout>

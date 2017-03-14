@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:find="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_fragment_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.baluobo.common.views.CycleViewPager
+            android:id="@+id/cycleView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/white"
+            android:gravity="center_vertical">
+
+            <com.baluobo.common.views.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:textColor="@color/color_luobo_xin_shou"
+                android:text="@string/icon_string_declaration" />
+
+            <TextView
+                android:id="@+id/declaration_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_13"
+                android:textColor="@color/color_40"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <com.baluobo.common.views.FindBlockView
+                android:id="@+id/find_block_luobo_ding_tou"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                find:blockIcon="@drawable/icon_ding_tou"
+                find:blickDesc="@string/luobo_ding_tou_desc"
+                find:blockName="@string/luobo_ding_tou" />
+
+            <com.baluobo.common.views.FindBlockView
+                android:id="@+id/find_block_kuai_zhuan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                find:blockIcon="@drawable/icon_kuai_zhuan"
+                find:blickDesc="@string/luobo_kuai_zhuan_desc"
+                find:blockName="@string/luobo_kuai_zhuan" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <com.baluobo.common.views.FindBlockView
+                android:id="@+id/find_block_luobo_xin_shou"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                find:blockIcon="@drawable/icon_xin_shou"
+                find:blickDesc="@string/luobo_xin_shou_desc"
+                find:blockName="@string/luobo_xin_shou" />
+
+            <com.baluobo.common.views.FindBlockView
+                android:id="@+id/find_block_yin_piao"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                find:blockIcon="@drawable/icon_yin_piao"
+                find:blickDesc="@string/luobo_yin_piao_desc"
+                find:blockName="@string/luobo_yin_piao" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/home_recommend_products_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>

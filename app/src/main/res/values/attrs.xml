@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IndicatorView">
+        <attr name="normalColor" format="color"/>
+        <attr name="selectedColor" format="color"/>
+        <attr name="dotMargin" format="dimension"/>
+        <attr name="dotNumber" format="integer"/>
+        <attr name="dotRadius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="IconTextView">
+        <attr name="text" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="CustomItemView">
+        <attr name="iconFlagColor" format="color"/>
+        <attr name="showIconFlag" format="boolean"/>
+        <attr name="showIconArrow" format="boolean"/>
+        <attr name="iconFlag" format="string"/>
+        <attr name="titleContent" format="string"/>
+        <attr name="titleSubContent" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="CustomInputView">
+        <attr name="hintText" format="string"/>
+        <attr name="iconVisible" format="boolean"/>
+        <attr name="buttonText" format="string"/>
+        <attr name="buttonVisible" format="boolean"/>
+        <attr name="setPassword" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="TotalAssetsView">
+        <attr name="insideRadius" format="dimension"/>
+        <attr name="outsideRadius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="AssetsItemView">
+        <attr name="itemIconColor" format="color"/>
+        <attr name="itemName" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="FindBlockView">
+        <attr name="blockName" format="string"/>
+        <attr name="blickDesc" format="string"/>
+        <attr name="blockIcon" format="reference"/>
+        <attr name="blockColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="InvestCircleView">
+        <attr name="circleRadius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ProductItemCircleView">
+        <attr name="itemCircleRadius" format="dimension"/>
+        <attr name="itemStrokeWidth" format="dimension"/>
+        <attr name="itemTextSize" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ProductCircleView">
+        <attr name="largeCircleRadius" format="dimension"/>
+        <attr name="largeStrokeWidth" format="dimension"/>
+        <attr name="blackTextColor" format="color"/>
+        <attr name="redTextColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="TradingCircleView">
+        <attr name="tradingCircleRadius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ProductInfoCircleView">
+        <attr name="infoCircleRadius" format="dimension"/>
+        <attr name="infoCircleColor" format="color"/>
+        <attr name="infoArcColor" format="color"/>
+        <attr name="infoTextSize" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="InvestDetailView">
+        <attr name="columnWidth" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="SecurityView">
+        <attr name="securityCircleRadius" format="dimension"/>
+        <attr name="securityCircleStroke" format="dimension"/>
+        <attr name="securityColorBackground" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="ProductInfoItemView">
+        <attr name="infoTitle" format="string"/>
+        <attr name="infoContent" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="FindBlankView">
+        <attr name="blankImage" format="reference"/>
+        <attr name="blankTitle" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="KuaiZhuanProgress">
+        <attr name="colorBaseWidth" format="dimension"/>
+        <attr name="colorWhiteWidth" format="dimension"/>
+    </declare-styleable>
+
+</resources>

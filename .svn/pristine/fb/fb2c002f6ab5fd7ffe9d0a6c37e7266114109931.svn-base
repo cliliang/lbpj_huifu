@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:paddingTop="8dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/main_tab_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:drawableTop="@drawable/icon_home_selected"
+        android:drawablePadding="5dp"
+        android:textSize="@dimen/font_size_10"
+        android:textColor="@color/main_tab_icon_text_color"
+        android:text="@string/home_tag"/>
+
+</LinearLayout>

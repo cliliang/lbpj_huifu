@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon_string_close_eye">&#xe900;</string>
+    <string name="icon_string_my_invest">&#xe901;</string>
+    <string name="icon_string_arrow_left">&#xe902;</string>
+    <string name="icon_string_open_eye">&#xe903;</string>
+    <string name="icon_string_arrow_right">&#xe904;</string>
+    <string name="icon_string_declaration">&#xe905;</string>
+    <string name="icon_string_account">&#xe906;</string>
+    <string name="icon_string_dot">&#xe907;</string>
+    <string name="icon_string_message">&#xe908;</string>
+    <string name="icon_string_asset">&#xe909;</string>
+    <string name="icon_string_kuai_zhuan">&#xe90a;</string>
+    <string name="icon_string_more">&#xe90b;</string>
+    <string name="icon_string_security">&#xe90c;</string>
+    <string name="icon_string_mine_selected">&#xe90d;</string>
+    <string name="icon_string_mine">&#xe90e;</string>
+    <string name="icon_string_home_selected">&#xe90f;</string>
+    <string name="icon_string_home">&#xe910;</string>
+    <string name="icon_string_fuli">&#xe911;</string>
+    <string name="icon_string_record">&#xe912;</string>
+</resources>

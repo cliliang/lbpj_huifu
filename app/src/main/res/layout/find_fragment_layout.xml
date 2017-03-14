@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        android:id="@+id/find_home_root_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/find_status_bar_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/custom_item_layout_bg"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:id="@+id/luobo_icon_show_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/icon_gold" />
+
+                    <TextView
+                        android:id="@+id/find_fragment_user_score_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/colorBase"
+                        android:textSize="@dimen/font_size_12" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_default_head" />
+
+                    <ImageView
+                        android:id="@+id/find_fragment_vip_level_image"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="7dp" />
+
+                    <TextView
+                        android:id="@+id/find_fragment_vip_level_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:text="VIP"
+                        android:textColor="@color/colorBase"
+                        android:textSize="@dimen/font_size_12" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/find_fragment_sign_button"
+                    android:layout_width="64dp"
+                    android:layout_height="24dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:text="@string/sign_in_every_day"
+                    android:textColor="@color/colorBase" />
+
+            </LinearLayout>
+
+            <com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager
+                android:id="@+id/find_banner_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:clipToPadding="false"
+                android:paddingBottom="18dp"
+                android:paddingLeft="55dp"
+                android:paddingRight="55dp"
+                android:paddingTop="18dp"
+                app:triggerOffset="0.2" />
+
+            <include layout="@layout/common_horizontal_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <com.baluobo.common.views.FindBlankView
+                    android:id="@+id/find_blank_ji_fen"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:blankImage="@drawable/icon_integral_shop"
+                    app:blankTitle="@string/find_blank_ji_fen_title" />
+
+                <include layout="@layout/common_vertical_line" />
+
+                <com.baluobo.common.views.FindBlankView
+                    android:id="@+id/find_blank_vip"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:blankImage="@drawable/icon_vip_te_quan"
+                    app:blankTitle="@string/find_blank_vip_title" />
+
+                <include layout="@layout/common_vertical_line" />
+
+                <com.baluobo.common.views.FindBlankView
+                    android:id="@+id/find_blank_help"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:blankImage="@drawable/icon_help_center"
+                    app:blankTitle="@string/find_blank_help_title" />
+            </LinearLayout>
+
+            <include layout="@layout/common_horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <include layout="@layout/common_horizontal_line" />
+
+            <LinearLayout
+                android:id="@+id/find_list_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+    <LinearLayout
+        android:id="@+id/find_net_invalid_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/default_background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/net_invalid_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/invalid_net_page_text"
+            android:textColor="@color/color_92"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/find_reload_data_button"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:background="@drawable/reload_data_button_bg"
+            android:text="@string/reload_data"
+            android:textColor="@color/color_92"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</FrameLayout>

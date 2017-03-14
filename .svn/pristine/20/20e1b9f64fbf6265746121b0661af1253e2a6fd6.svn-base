@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:item="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/more_info_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconFlag="true"
+        item:titleContent="@string/contact_us" />
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/more_info_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconFlag="true"
+        item:titleContent="@string/about_us" />
+    <include layout="@layout/common_horizontal_line"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_vertical_margin" />
+
+    <include layout="@layout/common_horizontal_line"/>
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/more_info_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconFlag="true"
+        item:titleContent="@string/feedback" />
+
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/more_info_check_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconFlag="true"
+        item:titleContent="@string/version_info" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_vertical_margin" />
+
+    <!--<include layout="@layout/common_horizontal_line"/>-->
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/more_info_luobo_coin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        item:showIconFlag="true"
+        item:titleContent="@string/luobo_coin" />
+
+    <TextView
+        android:id="@+id/account_info_logout_safe"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/long_view_margin_left_right"
+        android:layout_marginRight="@dimen/long_view_margin_left_right"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/common_button_bg"
+        android:textColor="@color/common_button_text_color_selector"
+        android:textSize="@dimen/font_size_17"
+        android:text="@string/safe_logout"/>
+    
+</LinearLayout>

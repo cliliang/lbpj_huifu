@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading16.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading16.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading13.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading13.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading19.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading19.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading10.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading10.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading21.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading21.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading11.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading11.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading24.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading24.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/indicator_arrow.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/default_ptr_rotate.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/default_ptr_rotate.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading14.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading14.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading18.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading18.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading22.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading22.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading12.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading12.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/default_ptr_flip.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading15.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading15.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading17.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading17.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading23.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading23.png"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading20.png",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/drawable-hdpi/loading20.png"
+    }
+]

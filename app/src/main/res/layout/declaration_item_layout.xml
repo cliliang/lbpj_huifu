@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="25dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/declaration_item_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_40"
+                android:textSize="@dimen/font_size_15"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/declaration_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_size_11"
+                android:textColor="@color/color_70" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/declaration_item_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/color_70"
+            android:textSize="@dimen/font_size_13"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

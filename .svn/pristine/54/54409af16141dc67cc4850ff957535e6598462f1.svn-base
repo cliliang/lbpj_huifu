@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="colorBase">#ff6e54</color>
+    <color name="default_background">#f3f3f3</color>
+    <color name="normal_text_color">#000000</color>
+    <color name="hint_text_color">#090909</color>
+    <color name="line_color">#dddddd</color>
+    <color name="button_state_clicked">#ec6046</color>
+    <color name="button_state_normal">#fafafa</color>
+    
+    <color name="color_cf">#cfcfcf</color>
+    <color name="color_c4">#c4c4c4</color>
+    <color name="color_33">#333333</color>
+    <color name="color_66">#666666</color>
+    <color name="color_40">#404040</color>
+    <color name="color_d3">#d3d3d3</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="color_f4">#f4f4f4</color>
+    <color name="color_92">#929292</color>
+    <color name="color_99">#999999</color>
+    <color name="color_70">#707070</color>
+    <color name="color_dd">#dddddd</color>
+    <color name="color_e6">#e6e6e6</color>
+    <color name="color_cc">#cccccc</color>
+    <color name="color_map_line">#ffc562</color>
+    <color name="color_map_block">#fff3e0</color>
+    <color name="color_invest_income_color">#ff9582</color>
+    <color name="home_tab_color_normal">#7e7e83</color>
+
+    <color name="product_info_circle_bg_color">#ffa36f</color>
+    <color name="product_info_arc_bg_color">#ffb67f</color>
+    <color name="my_fuli_color">#fe7b64</color>
+
+    <color name="product_sell_start_color">#ff8d78</color>
+
+    
+    <color name="color_luobo_kuai_zhuan">#fbc870</color>
+    <color name="color_luobo_ding_tou">#aae9f4</color>
+    <color name="color_luobo_xin_shou">#f9bca0</color>
+    <color name="color_luobo_yin_piao">#59daa4</color>
+    <color name="color_luobo_usable_money">#fb765e</color>
+    <color name="color_luobo_freeze_money">#00ffff</color>
+    <color name="color_luobo_exp_color">#ffe762</color>
+    <color name="color_luobo_record">#ffd99e</color>
+
+    <color name="color_security_low_half">#7Fffffff</color>
+    <color name="color_security_low">#ffffff</color>
+    <color name="color_security_middle_half">#7fffda9b</color>
+    <color name="color_security_middle">#ffda9b</color>
+    <color name="color_security_high_half">#7fffbe50</color>
+    <color name="color_security_high">#ffffbe50</color>
+
+    //投资
+    <color name="color_invest">#ffa57d</color>
+    //提现
+    <color name="color_withdraw">#6ee3b2</color>
+    //充值
+    <color name="color_recharge">#ffc562</color>
+    //赎回
+    <color name="color_redeem">#b6f0fa</color>
+    //还款
+    <color name="color_repayment">#ffd58e</color>
+    //失败
+    <color name="color_fail_action">#abacb1</color>
+</resources>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:info="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBase">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/product_top_banner"
+            android:layout_gravity="bottom|center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/product_top_info_layout"/>
+
+            <com.baluobo.common.views.ProductInfoCircleView
+                android:id="@+id/product_info_sell_process"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                info:infoArcColor="@color/product_info_arc_bg_color"
+                info:infoCircleColor="@color/product_info_circle_bg_color"
+                info:infoCircleRadius="25dp"
+                info:infoTextSize="13sp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/product_info_block_view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <include layout="@layout/common_horizontal_line" />
+
+    <FrameLayout
+        android:id="@+id/time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_item_layout_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/product_day_view1"
+                android:layout_width="0dp"
+                android:layout_height="1.5dp"
+                android:layout_weight="0"
+                android:background="@color/colorBase" />
+
+            <TextView
+                android:id="@+id/product_day_view2"
+                android:layout_width="0dp"
+                android:layout_height="1.5dp"
+                android:layout_weight="1"
+                android:background="@color/line_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="top|center_horizontal"
+                        android:paddingTop="7dp"
+                        android:text="@string/product_info_sale_day"
+                        android:textColor="@color/color_70"
+                        android:textSize="@dimen/font_size_10" />
+
+                    <TextView
+                        android:id="@+id/product_info_start_sale_day_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center_horizontal"
+                        android:paddingBottom="9dp"
+                        android:textColor="@color/color_92"
+                        android:textSize="@dimen/font_size_8" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/day_dot_view1"
+                    android:layout_width="9dp"
+                    android:layout_height="9dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_day_normal" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="top|center_horizontal"
+                        android:paddingTop="7dp"
+                        android:text="@string/product_info_start_income_day"
+                        android:textColor="@color/color_70"
+                        android:textSize="@dimen/font_size_10" />
+
+                    <TextView
+                        android:id="@+id/product_info_start_income_day_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center_horizontal"
+                        android:paddingBottom="9dp"
+                        android:textColor="@color/color_92"
+                        android:textSize="@dimen/font_size_8" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/day_dot_view2"
+                    android:layout_width="9dp"
+                    android:layout_height="9dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_day_normal" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="top|center_horizontal"
+                        android:paddingTop="7dp"
+                        android:text="@string/product_info_end_income_day"
+                        android:textColor="@color/color_70"
+                        android:textSize="@dimen/font_size_10" />
+
+                    <TextView
+                        android:id="@+id/product_info_end_income_day_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center_horizontal"
+                        android:paddingBottom="9dp"
+                        android:textColor="@color/color_92"
+                        android:textSize="@dimen/font_size_8" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/day_dot_view3"
+                    android:layout_width="9dp"
+                    android:layout_height="9dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_day_normal" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="top|center_horizontal"
+                        android:paddingTop="7dp"
+                        android:text="@string/product_info_latest_day"
+                        android:textColor="@color/color_70"
+                        android:textSize="@dimen/font_size_10" />
+
+                    <TextView
+                        android:id="@+id/product_info_latest_back_day_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center_horizontal"
+                        android:paddingBottom="9dp"
+                        android:textColor="@color/color_92"
+                        android:textSize="@dimen/font_size_8" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/day_dot_view4"
+                    android:layout_width="9dp"
+                    android:layout_height="9dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_day_normal" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <include layout="@layout/common_horizontal_line" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/product_info_table_layout"
+        style="@style/MyInvestTabStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+    <include layout="@layout/common_horizontal_line" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/product_info_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/product_info_buy_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/long_view_margin_left_right"
+        android:layout_marginRight="@dimen/long_view_margin_left_right"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@drawable/common_button_bg"
+        android:gravity="center"
+        android:text="@string/buy_now"
+        android:textColor="@color/common_button_text_color_selector"
+        android:textSize="@dimen/font_size_18" />
+</LinearLayout>

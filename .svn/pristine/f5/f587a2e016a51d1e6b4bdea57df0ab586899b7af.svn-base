@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/product_buy_desc1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/luobo_kuai_zhuan"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_18" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/product_buy_apr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_33" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/product_buy_apr"
+                    android:layout_toRightOf="@id/product_buy_apr"
+                    android:text="%"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_11" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/APR"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_11" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/product_buy_desc2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/luobo_kuai_zhuan_lin_huo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_18" />
+
+    </LinearLayout>
+
+</LinearLayout>

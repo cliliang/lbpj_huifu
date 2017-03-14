@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:item="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/login_activity_logo"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="65dp"/>
+
+    <com.baluobo.common.views.CustomItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconArrow="false"
+        item:showIconFlag="false"
+        item:titleContent="@string/official_weibo"
+        item:titleSubContent="@string/official_weibo_account"/>
+
+    <com.baluobo.common.views.CustomItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconArrow="false"
+        item:showIconFlag="false"
+        item:titleContent="@string/official_weixin"
+        item:titleSubContent="@string/official_weixin_account"/>
+
+    <com.baluobo.common.views.CustomItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconArrow="false"
+        item:showIconFlag="false"
+        item:titleContent="@string/official_web"
+        item:titleSubContent="@string/official_web_address"/>
+
+    <com.baluobo.common.views.CustomItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconArrow="false"
+        item:showIconFlag="false"
+        item:titleContent="@string/official_email"
+        item:titleSubContent="@string/official_email_address"/>
+
+    <com.baluobo.common.views.CustomItemView
+        android:id="@+id/contact_us_hot_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        item:showIconArrow="false"
+        item:showIconFlag="false"
+        item:titleContent="@string/official_hot_line"
+        item:titleSubContent="@string/official_hot_line_number"/>
+
+    </LinearLayout>
+</LinearLayout>

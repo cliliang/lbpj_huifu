@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/product_item_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/product_item_name"
+                style="@style/Font13HintColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="productName"
+                android:textColor="@color/color_70"
+                android:textSize="@dimen/font_size_13" />
+
+            <ImageView
+                android:id="@+id/product_item_new_flag"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/icon_new" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/product_item_cash_flag"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/icon_bank" />
+
+            <TextView
+                android:id="@+id/product_item_bank_name"
+                style="@style/Font13HintColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="bank_name"
+                android:textColor="@color/color_70"
+                android:textSize="@dimen/font_size_13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/product_item_interest_rate_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp">
+
+                    <TextView
+                        android:id="@+id/product_item_interest_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10.1"
+                        android:textColor="@color/colorBase"
+                        android:textSize="@dimen/font_size_30" />
+
+                    <TextView
+                        android:id="@+id/product_item_rate_flag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/product_item_interest_rate"
+                        android:layout_toRightOf="@id/product_item_interest_rate"
+                        android:text="%"
+                        android:textColor="@color/color_92"
+                        android:textSize="@dimen/font_size_11" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="@dimen/font_size_11"
+                    android:textColor="@color/color_92"
+                    android:text="@string/APR" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/product_item_day_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:textColor="@color/color_70"
+                        android:textSize="@dimen/font_size_30" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/product_item_day_number"
+                        android:layout_toRightOf="@id/product_item_day_number"
+                        android:text="@string/day"
+                        android:textColor="@color/color_92"
+                        android:textSize="@dimen/font_size_11" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_size_11"
+                    android:textColor="@color/color_92"
+                    android:text="@string/product_item_invest_time" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <com.baluobo.common.views.InvestCircleView
+                    android:id="@+id/product_item_circle_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    circle:circleRadius="25dp"
+                    circle:textSize="@dimen/font_size_13"
+                    circle:strokeWidth="1.5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

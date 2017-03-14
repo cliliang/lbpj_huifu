@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/buy_activity_root_view"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@color/colorBase">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:src="@drawable/product_top_banner"/>
+
+        <ViewStub
+            android:id="@+id/product_buy_kuai_zhuan_stub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/product_buy_top_layout"/>
+        <ViewStub
+            android:id="@+id/product_buy_ding_qi_stub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/product_top_info_layout"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_item_layout_height"
+        android:background="@drawable/custom_item_layout_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="@string/account_usable_money"
+            android:textColor="@color/color_40"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:id="@+id/product_buy_account_money"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:textColor="@color/color_40"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:id="@+id/product_buy_recharge_button"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_button_bg"
+            android:gravity="center"
+            android:text="@string/recharge"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_15" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <include layout="@layout/common_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_item_height"
+        android:background="@drawable/custom_item_layout_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="@string/product_info_invest_money"
+            android:textColor="@color/color_40"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:id="@+id/product_buy_invest_money"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="100"
+            android:textColor="@color/colorBase"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:id="@+id/preProcess_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/product_info_30_day"
+            android:textColor="@color/color_40"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:id="@+id/product_buy_30_day_income"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorBase"
+            android:textSize="@dimen/font_size_15" />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.baluobo.common.views.ScrollListenerHorizontalScrollView
+            android:id="@+id/product_rule_view_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <com.baluobo.common.views.ScaleMoneyView
+                android:id="@+id/buy_money_scroll_view"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp" />
+        </com.baluobo.common.views.ScrollListenerHorizontalScrollView>
+
+        <TextView
+            android:layout_width="@dimen/buy_rule_line_width"
+            android:layout_height="@dimen/buy_rule_low_line_height"
+            android:background="@color/colorBase"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_40"
+                android:textSize="@dimen/font_size_15"
+                android:text="@string/product_buy_max_money"/>
+            <TextView
+                android:id="@+id/product_buy_can_max_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBase"
+                android:textSize="@dimen/font_size_15"
+                android:text="1600"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/product_buy_money_unit"/>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <include layout="@layout/common_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_item_layout_height"
+        android:background="@drawable/custom_item_layout_bg"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="@string/product_info_buy_how_much_money"
+            android:textColor="@color/color_40"
+            android:textSize="@dimen/font_size_15" />
+
+        <EditText
+            android:id="@+id/product_buy_input_invest_count"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/product_info_input_buy_money_hint"
+            android:inputType="number"
+            android:maxLength="8"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorBase"
+            android:textColorHint="@color/color_92"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:id="@+id/buy_all_product_money_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="@string/product_info_choice_all_money"
+            android:textColor="@color/colorBase"
+            android:textSize="@dimen/font_size_15" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/product_buy_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/long_view_margin_left_right"
+            android:layout_marginRight="@dimen/long_view_margin_left_right"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:background="@drawable/common_button_bg"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_17" />
+
+    </LinearLayout>
+
+</LinearLayout>

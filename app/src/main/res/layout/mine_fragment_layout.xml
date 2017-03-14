@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:items="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mine_status_bar_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBase" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:background="@color/colorBase"
+                android:text="@string/mine_tag"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_18" />
+
+            <LinearLayout
+                android:id="@+id/mine_total_assets_layout_view"
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:background="@drawable/sign_in_bg"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/mine_asset_total_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="99999.000"
+                        android:textSize="25sp"/>
+
+                    <TextView
+                        android:id="@+id/the_money_mean_view_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/mine_total_asset"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/font_size_13" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ff6c58"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/mine_tomorrow_income"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="999.00"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_size_15" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/main_tomorrow_income_money"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="8dp"
+                            android:textSize="@dimen/font_size_11"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="1px"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:background="#ff988a" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/mine_total_income"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9992"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_size_15" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/main_total_income_money"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="8dp"
+                            android:textSize="@dimen/font_size_11"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.baluobo.common.views.WaveView
+                android:id="@+id/waveView"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_gravity="bottom"
+                android:visibility="gone" />
+
+            <!--<include layout="@layout/mine_top_banner_layout" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/custom_item_layout_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.baluobo.common.views.IconTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="@string/icon_string_asset"
+                    android:textColor="@color/color_luobo_usable_money"
+                    android:textSize="@dimen/font_size_18" />
+
+                <TextView
+                    android:id="@+id/mine_can_use_assets_view"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mine_usable_asset"
+                    android:textColor="@color/color_40"
+                    android:textSize="@dimen/font_size_15" />
+
+                <TextView
+                    android:id="@+id/mine_recharge_button"
+                    android:layout_width="80dp"
+                    android:layout_height="34dp"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:background="@drawable/common_button_bg"
+                    android:gravity="center"
+                    android:text="@string/recharge"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_15" />
+
+            </LinearLayout>
+
+            <include layout="@layout/common_horizontal_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <include layout="@layout/common_horizontal_line" />
+
+            <com.baluobo.common.views.CustomItemView
+                android:id="@+id/mine_luobo_kuai_zhuan_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                items:iconFlag="@string/icon_string_kuai_zhuan"
+                items:iconFlagColor="@color/color_luobo_kuai_zhuan"
+                items:titleContent="@string/luobo_kuai_zhuan" />
+
+
+            <com.baluobo.common.views.CustomItemView
+                android:id="@+id/mine_invest_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                items:iconFlag="@string/icon_string_my_invest"
+                items:iconFlagColor="@color/color_luobo_ding_tou"
+                items:titleContent="@string/mine_invest" />
+
+            <com.baluobo.common.views.CustomItemView
+                android:id="@+id/mine_account_fuli_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                items:iconFlag="@string/icon_string_fuli"
+                items:iconFlagColor="@color/my_fuli_color"
+                items:titleContent="@string/fuli_center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <include layout="@layout/common_horizontal_line" />
+
+            <com.baluobo.common.views.CustomItemView
+                android:id="@+id/mine_trade_record_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                items:iconFlag="@string/icon_string_record"
+                items:iconFlagColor="@color/color_luobo_record"
+                items:titleContent="@string/trade_record" />
+
+            <LinearLayout
+                android:id="@+id/mine_message_center_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_item_height"
+                android:background="@drawable/custom_item_layout_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.baluobo.common.views.IconTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="@string/icon_string_message"
+                    android:textColor="@color/color_luobo_usable_money"
+                    android:textSize="@dimen/font_size_18" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/message_center"
+                    android:textColor="@color/color_40"
+                    android:textSize="@dimen/font_size_15" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/message_dot_view"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:background="@drawable/main_tab_dot_view_bg"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="9sp"
+                    android:visibility="gone" />
+
+                <com.baluobo.common.views.IconTextView
+                    android:id="@+id/custom_item_arrow_icon_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:text="@string/icon_string_arrow_right"
+                    android:textSize="@dimen/font_size_18" />
+
+            </LinearLayout>
+
+
+            <com.baluobo.common.views.CustomItemView
+                android:id="@+id/mine_account_security_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                items:iconFlag="@string/icon_string_security"
+                items:iconFlagColor="@color/color_luobo_yin_piao"
+                items:titleContent="@string/account_info" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <include layout="@layout/common_horizontal_line" />
+
+            <com.baluobo.common.views.CustomItemView
+                android:id="@+id/mine_account_more_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                items:iconFlag="@string/icon_string_more"
+                items:iconFlagColor="@color/color_fail_action"
+                items:titleContent="@string/mine_more" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/online_contact_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/icon_online_hot" />
+
+</FrameLayout>

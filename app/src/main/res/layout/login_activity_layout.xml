@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/login_activity_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/long_view_margin_left_right"
+        android:layout_marginRight="@dimen/long_view_margin_left_right"
+        android:background="@drawable/common_input_view_bg"
+        android:layout_marginTop="20dp">
+
+        <com.baluobo.common.views.CustomInputView
+            android:id="@+id/login_input_phone_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            edit:hintText="@string/please_input_phone_number"
+            edit:iconVisible="false" />
+
+        <TextView
+            android:id="@+id/login_send_check_code"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:paddingRight="15dp"
+            android:text="@string/for_get_phone_check_code"
+            android:textColor="@color/colorBase"
+            android:textSize="@dimen/font_size_15" />
+
+
+    </LinearLayout>
+
+    <com.baluobo.common.views.CustomInputView
+        android:id="@+id/login_input_password_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/long_view_margin_left_right"
+        android:layout_marginRight="@dimen/long_view_margin_left_right"
+        android:layout_marginTop="20dp"
+        edit:hintText="@string/please_input_check_code"
+        edit:iconVisible="false" />
+
+    <TextView
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/long_view_margin_left_right"
+        android:layout_marginRight="@dimen/long_view_margin_left_right"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/common_button_bg"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_18" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/login_via_psd_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="15dp"
+            android:paddingRight="@dimen/long_view_margin_left_right"
+            android:paddingTop="15dp"
+            android:text="@string/login_via_psd"
+            android:textColor="@color/color_40"
+            android:textSize="@dimen/font_size_15" />
+
+        <LinearLayout
+            android:id="@+id/login_via_password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/long_view_margin_left_right"
+            android:layout_marginRight="@dimen/long_view_margin_left_right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/login_via_check_code_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/login_via_check_code"
+                android:textColor="@color/color_40"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/login_missing_password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="@string/missing_password"
+                android:textColor="@color/color_40"
+                android:textSize="@dimen/font_size_15" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/login_have_no_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="40dp"
+            android:text="@string/have_not_account"
+            android:textColor="@color/color_70"
+            android:textSize="@dimen/font_size_13" />
+
+        <TextView
+            android:id="@+id/login_register_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="40dp"
+            android:text="@string/register_free"
+            android:textColor="@color/color_40"
+            android:textSize="@dimen/font_size_13" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

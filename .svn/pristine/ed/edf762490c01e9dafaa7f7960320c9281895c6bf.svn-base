@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/redeem_button_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/redeem_button_bg.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/common_button_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/common_button_bg.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/indicator_bg_bottom.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/luobo2.0/pullToRefreshLibrary/unspecified/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/mine_tabl_icon_selector.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/mine_tabl_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/call_hot_line_dialog_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/call_hot_line_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/declaration_item_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/declaration_item_bg.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/common_dialog_shape_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/common_dialog_shape_bg.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/custom_item_layout_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/custom_item_layout_bg.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/image_loading.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/luobo2.0/pullToRefreshLibrary/unspecified/res/drawable/image_loading.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/recharge_money_input_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/recharge_money_input_bg.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/single_button_dialog_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/single_button_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/indicator_bg_top.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/luobo2.0/pullToRefreshLibrary/unspecified/res/drawable/indicator_bg_top.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/common_actionbar_background.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/common_actionbar_background.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/common_input_view_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/common_input_view_bg.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/home_tab_icon_selector.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/home_tab_icon_selector.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/design_fab_background.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/build/intermediates/res/merged/_360shoujizhushou/debug/drawable/security_logout_button_bg.xml",
+        "source": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/app/src/main/res/drawable/security_logout_button_bg.xml"
+    }
+]

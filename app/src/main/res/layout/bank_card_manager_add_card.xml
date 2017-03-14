@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/manager_bank_card_bg">
+
+        <TextView
+            android:id="@+id/add_bank_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/add_bank_card"
+            android:textSize="@dimen/font_size_15"
+            android:textColor="@color/white"/>
+
+    </FrameLayout>
+</LinearLayout>

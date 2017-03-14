@@ -1,0 +1,330 @@
+[
+    {
+        "outputFile": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/build/intermediates/res/merged/release/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1978,
+                    "endColumn": 58,
+                    "endOffset": 2032
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 58,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 2037,
+                    "endColumn": 63,
+                    "endOffset": 2096
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 63,
+                        "endOffset": 282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 2101,
+                    "endColumn": 55,
+                    "endOffset": 2152
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 287,
+                        "endColumn": 55,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 2157,
+                    "endColumn": 50,
+                    "endOffset": 2203
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 50,
+                        "endOffset": 448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 2208,
+                    "endColumn": 54,
+                    "endOffset": 2258
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 111,
+                        "endColumn": 54,
+                        "endOffset": 161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 2263,
+                    "endColumn": 56,
+                    "endOffset": 2315
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 166,
+                        "endColumn": 56,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 2320,
+                    "endColumn": 54,
+                    "endOffset": 2370
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 54,
+                        "endOffset": 106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 2375,
+                    "endColumn": 37,
+                    "endOffset": 2408
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 38,
+                        "endOffset": 90
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 2413,
+                    "endColumn": 39,
+                    "endOffset": 2448
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 133,
+                        "endColumn": 40,
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2453,
+                    "endColumn": 46,
+                    "endOffset": 2495
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 47,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2500,
+                    "endColumn": 36,
+                    "endOffset": 2532
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/ids.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 95,
+                        "endColumn": 37,
+                        "endOffset": 128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2537,
+                    "endColumn": 73,
+                    "endOffset": 2606
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/pull_refresh_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 363,
+                        "endColumn": 73,
+                        "endOffset": 432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2611,
+                    "endColumn": 79,
+                    "endOffset": 2686
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/pull_refresh_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 513,
+                        "endColumn": 79,
+                        "endOffset": 588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2691,
+                    "endColumn": 75,
+                    "endOffset": 2762
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/pull_refresh_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 437,
+                        "endColumn": 75,
+                        "endOffset": 508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2767,
+                    "endColumn": 60,
+                    "endOffset": 2823
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/pull_refresh_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 60,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2828,
+                    "endColumn": 67,
+                    "endOffset": 2891
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/pull_refresh_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 181,
+                        "endColumn": 67,
+                        "endOffset": 244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2896,
+                    "endColumn": 63,
+                    "endOffset": 2955
+                },
+                "from": {
+                    "file": "/Users/chenliliang/Documents/LuoBoPiaoJu/luobo2.0/pullToRefreshLibrary/src/main/res/values/pull_refresh_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 63,
+                        "endOffset": 176
+                    }
+                }
+            }
+        ]
+    }
+]

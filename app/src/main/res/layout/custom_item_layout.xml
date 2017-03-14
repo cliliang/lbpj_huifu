@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/custom_item_height"
+    android:background="@drawable/custom_item_layout_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.baluobo.common.views.IconTextView
+        android:id="@+id/custom_item_flag_icon_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/font_size_18"
+        android:text="@string/icon_string_home" />
+
+    <TextView
+        android:id="@+id/custom_item_content_text_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        android:textSize="@dimen/font_size_15"
+        android:textColor="@color/color_40" />
+
+    <TextView
+        android:id="@+id/custom_item_sub_content_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:textColor="@color/color_70"
+        android:textSize="@dimen/font_size_13" />
+
+    <com.baluobo.common.views.IconTextView
+        android:id="@+id/custom_item_arrow_icon_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/font_size_18"
+        android:text="@string/icon_string_arrow_right" />
+
+</LinearLayout>
