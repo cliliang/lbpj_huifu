@@ -108,7 +108,6 @@ public class AppActionsCreator extends ActionsCreator {
     public void userLogin(String phone, String psd) {
         dispatcher.dispatch(new LoginAction(LoginAction.ACTION_REQUEST_START));
         String psdMD5 = Util.MD5(psd);
-        Log.i("chen", "psd:" + psdMD5);
         apiService.getLoginData(phone, psdMD5).enqueue(new Callback<BaseModel<User>>() {
             @Override
             public void onResponse(Call<BaseModel<User>> call, Response<BaseModel<User>> response) {
