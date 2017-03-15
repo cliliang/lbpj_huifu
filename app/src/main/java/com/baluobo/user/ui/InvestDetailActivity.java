@@ -158,7 +158,7 @@ public class InvestDetailActivity extends BaseToolBarActivity {
         highAnimator.start();
 
 
-        
+
         highAnimator.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {

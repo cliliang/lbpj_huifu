@@ -15,7 +15,7 @@ public class APIClient {
     protected static final String HTTP = "http://";
     private static final String HTTPS = "https://";
 
-    protected static final String DEBUG_HOST_BASE = "test.luobopj.com:8080/";//baluobo-zxtc.imwork.net:59617/12   test.luobopj.com:8080/115
+    protected static final String DEBUG_HOST_BASE = "static.luobopj.com/";//baluobo-zxtc.imwork.net:59617/12   test.luobopj.com:8080/115
     protected static final String RELEASE_HOST_BASE = "www.luobopj.com/";//161
     protected static final String HUIFU = "huifu/";
     private static final String MOBILE = "mobile/";
