@@ -15,28 +15,32 @@ public class APIClient {
     protected static final String HTTP = "http://";
     private static final String HTTPS = "https://";
 
+    protected static String getRequestTpye(){
+        return HTTPS;
+    }
+
     protected static final String DEBUG_HOST_BASE = "static.luobopj.com/";//baluobo-zxtc.imwork.net:59617/12   test.luobopj.com:8080/115
     protected static final String RELEASE_HOST_BASE = "www.luobopj.com/";//161
     protected static final String HUIFU = "huifu/";
     private static final String MOBILE = "mobile/";
     protected static final String CGT = "cgt/";
 
-    private static final String debugBaseHost = HTTP + DEBUG_HOST_BASE;
-    private static final String releaseBaseHost = HTTP + RELEASE_HOST_BASE;
+    private static final String debugBaseHost = getRequestTpye() + DEBUG_HOST_BASE;
+    private static final String releaseBaseHost = getRequestTpye() + RELEASE_HOST_BASE;
 
     private static final String debugURL = debugBaseHost + MOBILE;
     private static final String releaseURL = releaseBaseHost + MOBILE;
 
     //使用汇付天下接口，用于购买，开户等进入H5的界面
-    private static final String debugHuifuURL = HTTP + DEBUG_HOST_BASE + HUIFU;
-    private static final String releaseHuifuURL = HTTP + RELEASE_HOST_BASE + HUIFU;
+    private static final String debugHuifuURL = getRequestTpye() + DEBUG_HOST_BASE + HUIFU;
+    private static final String releaseHuifuURL = getRequestTpye() + RELEASE_HOST_BASE + HUIFU;
 
     //使用存管通接口，用于购买，开户等进入H5的界面
-    private static final String debugCGTURL = HTTP + DEBUG_HOST_BASE + CGT;
-    private static final String releaseCGTURL = HTTP + RELEASE_HOST_BASE + CGT;
+    private static final String debugCGTURL = getRequestTpye() + DEBUG_HOST_BASE + CGT;
+    private static final String releaseCGTURL = getRequestTpye() + RELEASE_HOST_BASE + CGT;
 
-    private static final String debugDeclaration = HTTP + DEBUG_HOST_BASE + "notice/";
-    private static final String releaseDeclaration = HTTP + RELEASE_HOST_BASE + "notice/";
+    private static final String debugDeclaration = getRequestTpye() + DEBUG_HOST_BASE + "notice/";
+    private static final String releaseDeclaration = getRequestTpye() + RELEASE_HOST_BASE + "notice/";
 
     //获取用户红包消息
     public static final String getRedPacket = "coupon/queryCouponPage.do";

@@ -12,8 +12,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 public class RedeemAPIClient extends APIClient{
 
-    private static final String debugHuifuURL = HTTP + DEBUG_HOST_BASE + HUIFU;
-    private static final String releaseHuifuURL = HTTP + RELEASE_HOST_BASE + HUIFU;
+    private static final String debugHuifuURL = getRequestTpye() + DEBUG_HOST_BASE + HUIFU;
+    private static final String releaseHuifuURL = getRequestTpye() + RELEASE_HOST_BASE + HUIFU;
 
     private static APIService apiService;
     public static APIService getInstance(){
