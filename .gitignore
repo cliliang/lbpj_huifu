@@ -17,6 +17,10 @@ bin/
 gen/
 out/
 
+#svn file
+.svn/
+.svn/wc.db
+
 #Gradle files
 .gradle/
 build/

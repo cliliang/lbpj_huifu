@@ -212,7 +212,6 @@ public class LoginActivity extends BaseToolBarActivity implements View.OnClickLi
     protected void onStop() {
         super.onStop();
         loginStore.unregister(this);
-
     }
 
     @Override
